@@ -7,6 +7,7 @@ import { motion, Variants } from "framer-motion";
 import Link from "next/link";
 import { Calendar, MapPin, Users, ArrowRight, Sparkles } from "lucide-react";
 import { useState } from "react";
+import { events } from "@/config/eventConfigs/list";
 
 const events = [
   {
@@ -164,7 +165,7 @@ export default function EventsPage() {
               animate="visible"
               className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8"
             >
-              {events.map((event) => (
+              {events.map((event: any) => (
                 <motion.div
                   key={event.id}
                   variants={itemVariants}
@@ -174,7 +175,7 @@ export default function EventsPage() {
                 >
                   {/* Animated background orb */}
                   <motion.div
-                    className={`absolute -inset-0.5 rounded-2xl blur-2xl opacity-20 group-hover:opacity-40 transition-opacity duration-300 ${event.bgColor}`}
+                    className="absolute -inset-0.5 rounded-2xl blur-2xl opacity-20 group-hover:opacity-40 transition-opacity duration-300 bg-accretion/20"
                   />
 
                   {/* Card Container */}
@@ -196,7 +197,7 @@ export default function EventsPage() {
                       
                       {/* Category Badge */}
                       <div className="absolute top-4 right-4">
-                        <span className={`text-xs uppercase tracking-widest font-bold border border-white/20 px-2.5 py-1.5 rounded-md bg-white/5 group-hover:border-white/50 transition-all duration-300 ${event.accent}`}>
+                        <span className="text-xs uppercase tracking-widest font-bold border border-accretion/40 px-2.5 py-1.5 rounded-md bg-white/5 group-hover:border-accretion/80 text-accretion transition-all duration-300">
                           {event.category}
                         </span>
                       </div>
@@ -244,7 +245,7 @@ export default function EventsPage() {
                       initial={{ scaleX: 0 }}
                       whileHover={{ scaleX: 1 }}
                       transition={{ duration: 0.3 }}
-                      className={`absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r ${event.color} origin-left`}
+                      className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-accretion to-orange-500 origin-left"
                     />
 
                     {/* Full card link overlay */}
@@ -256,7 +257,7 @@ export default function EventsPage() {
                     initial={{ opacity: 0 }}
                     whileHover={{ opacity: 1 }}
                     transition={{ duration: 0.3 }}
-                    className={`absolute top-0 right-0 w-32 h-32 -mr-16 -mt-16 rounded-full blur-3xl opacity-0 group-hover:opacity-30 ${event.bgColor} transition-opacity duration-300`}
+                    className="absolute top-0 right-0 w-32 h-32 -mr-16 -mt-16 rounded-full blur-3xl opacity-0 group-hover:opacity-30 bg-accretion/20 transition-opacity duration-300"
                   />
                 </motion.div>
               ))}
