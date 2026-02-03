@@ -188,7 +188,6 @@ export const departmentsData: Record<DepartmentId, Department> = {
       { name: "Akarsh Sachdeva", email: "-", linkedin: "-", photo: "/assets/team/dynamics/akarsh-sachdeva.jpg" },
       { name: "Arshi Ansari", email: "-", linkedin: "-", photo: "/assets/team/dynamics/arshi-ansari.jpg" },
       { name: "Tezas Kalson", email: "-", linkedin: "-", photo: "/assets/team/dynamics/tezas-kalson.jpg" },
-      { name: "Vedant Sharma", email: "-", linkedin: "-", photo: "/assets/team/dynamics/vedant-sharma.jpg" },
       { name: "Sumit Mishra", email: "-", linkedin: "-", photo: "/assets/team/dynamics/sumit-mishra.jpg" },
       { name: "Harshita Thakur", email: "-", linkedin: "-", photo: "/assets/team/dynamics/harshita-thakur.jpg" }
     ]
