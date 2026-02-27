@@ -48,8 +48,8 @@ export const departmentsData: Record<DepartmentId, Department> = {
     opportunities: ["Lead CTF events", "System Architecture"],
     focus: "Reliable and secure systems",
     heads: [
-      { name: "Bhumika Rajesh Dahiya", email: "-", linkedin: "-", photo: "https://ui-avatars.com/api/?name=Bhumika+Rajesh+Dahiya&background=3B82F6&color=fff" },
-      { name: "Siya Chandna", email: "-", linkedin: "-", photo: "https://ui-avatars.com/api/?name=Siya+Chandna&background=3B82F6&color=fff" }
+      { name: "Bhumika Rajesh Dahiya", email: "-", linkedin: "-", photo: "/assets/team/technical/head_bhumika-rajesh-dahiya.jpg"},
+      { name: "Siya Chandna", email: "-", linkedin: "-", photo: "/assets/team/technical/head_siya-chandna.jpg" }
     ],
     seniorMembers: [
       { name: "Aishmanya Nishi", email: "-", linkedin: "-", photo: "https://ui-avatars.com/api/?name=Aishmanya+Nishi" },
@@ -86,7 +86,7 @@ export const departmentsData: Record<DepartmentId, Department> = {
       { name: "Divyansh Chauhan", email: "-", linkedin: "-", photo: "https://ui-avatars.com/api/?name=Divyansh+Chauhan&background=8B5CF6&color=fff" }
     ],
     seniorMembers: [
-      { name: "Shruti Singh", email: "-", linkedin: "-", photo: "https://ui-avatars.com/api/?name=Shruti+Singh" }
+      { name: "Shruti Singh", email: "-", linkedin: "-", photo: "/assets/team/editorial/senior_shruti-singh.jpg"}
     ],
     members: [
       { name: "Aditya Vishwakarma", email: "-", linkedin: "-", photo: "/assets/team/editorial/aditya-vishwakarma.jpg" },
@@ -116,7 +116,7 @@ export const departmentsData: Record<DepartmentId, Department> = {
     focus: "Meticulous planning and execution",
     heads: [
       { name: "Kanishk Jha", email: "-", linkedin: "-", photo: "https://ui-avatars.com/api/?name=Kanishk+Jha&background=10B981&color=fff" },
-      { name: "Lalit Kumar", email: "-", linkedin: "-", photo: "https://ui-avatars.com/api/?name=Lalit+Kumar&background=10B981&color=fff" }
+      { name: "Lalit Kumar", email: "-", linkedin: "-", photo: "/assets/team/organising/head_lalit-kumar.png" }
     ],
     seniorMembers: [],
     members: [
@@ -180,7 +180,7 @@ export const departmentsData: Record<DepartmentId, Department> = {
     focus: "Inspiring visual engagement",
     heads: [
       { name: "Chestha Raheja", email: "-", linkedin: "-", photo: "https://ui-avatars.com/api/?name=Chestha+Raheja&background=E11D48&color=fff" },
-      { name: "Kshiti Sonal", email: "-", linkedin: "-", photo: "https://ui-avatars.com/api/?name=Kshiti+Sonal&background=E11D48&color=fff" }
+      { name: "Kshiti Sonal", email: "-", linkedin: "-", photo: "/assets/team/dynamics/head_kshiti-sonal.jpg"}
     ],
     seniorMembers: [],
     members: [
@@ -201,12 +201,12 @@ export const executiveBoard = {
   ],
   core: [
     { name: "Divya Babbar", role: "PRESIDENT", email: "-", linkedin: "-", photo: "https://ui-avatars.com/api/?name=Divya+Babbar" },
-    { name: "Vishu", role: "VICE PRESIDENT", email: "-", linkedin: "-", photo: "https://ui-avatars.com/api/?name=Vishu" },
+    { name: "Vishu", role: "VICE PRESIDENT", email: "-", linkedin: "-", photo: "/assets/team/core/vishu.png" },
     { name: "Moinak Roy", role: "GENERAL SECRETARY", email: "-", linkedin: "-", photo: "https://ui-avatars.com/api/?name=Moinak+Roy" },
     { name: "Gauri Tiwari", role: "TREASURER", email: "-", linkedin: "-", photo: "https://ui-avatars.com/api/?name=Gauri+Tiwari" },
     { name: "Vichakshna Mishra", role: "JOINT SECRETARY", email: "-", linkedin: "-", photo: "https://ui-avatars.com/api/?name=Vichakshna+Mishra" },
     { name: "Devanshi Alhuwalia", role: "JOINT SECRETARY", email: "-", linkedin: "-", photo: "https://ui-avatars.com/api/?name=Devanshi+Alhuwalia" },
-    { name: "Shubh Chawla", role: "JOINT TREASURER", email: "-", linkedin: "-", photo: "https://ui-avatars.com/api/?name=Shubh+Chawla" }
+    { name: "Shubh Chawla", role: "JOINT TREASURER", email: "-", linkedin: "-", photo: "/assets/team/core/shubh-chawla.jpg" }
   ]
 };
 

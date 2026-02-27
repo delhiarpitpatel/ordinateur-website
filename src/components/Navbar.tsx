@@ -11,6 +11,7 @@ const navLinks = [
   { name: "About Us", href: "/about" },
   { name: "Departments", href: "/departments" },
   { name: "Events", href: "/events" },
+  { name: "Hackathon", href: "/hans-innoverse" },
   { name: "Bitwise", href: "/bitwise" },
   { name: "Gallery", href: "/gallery" },
   { name: "Contact Us", href: "/contact" },
